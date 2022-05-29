@@ -1,0 +1,29 @@
+header {
+    width: 1440px;
+    height: 600px;
+    background-image: url(./img/img.png);
+}
+
+.logo {
+    height: 83px;
+    width: 183px;
+    margin-left: 248px;
+    margin-top: 171px;
+
+}
+.about {
+    margin-left: 248px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: white;
+
+}
+
+
