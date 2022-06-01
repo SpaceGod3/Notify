@@ -23,8 +23,92 @@
 .ball__flex_main{
     display: flex;
     justify-content: space-around;
-    height: 250px;
+    
+    height: 150px;
     gap: 15px;
+}
+.title__flex_main{
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+}
+.description__flex_main{
+  display: flex;
+  justify-content: space-around;
+}
+.first__description{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #696969;
+}
+.second__description{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #696969;
+}
+.third__description{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #696969;
+}
+.first__title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+/* identical to box height, or 118% */
+
+  text-align: center;
+
+  color: #111111;
+
+}
+.second__title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+/* identical to box height, or 118% */
+  margin-left: 40px;
+  text-align: center;
+
+  color: #111111;
+}
+.third__title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+ margin-right: -30px;
+/* identical to box height, or 118% */
+
+  text-align: center;
+
+  color: #111111;
 }
 .ball_header{
     
@@ -38,7 +122,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-top: 70px;
+    margin-top: 40px;
     background: #2ECC71;
 }
 .first{
@@ -90,24 +174,35 @@
   font-style: normal;
   color: white;
 }
-#2 {
-  height: 50px;
-  width: 50px;
-  left: 248px;
-  top: 366px;
-  border-radius: 5px;
-  background-color: black;
+
+.skip{
+  background-color: #dae0e5;
+  height: 88px;
+  width: 100%;
 }
 .list {
   height: 338px;
   display: flex;
 }
-.email {
+.Get__email_main{
   background-color: #dae0e5;
   height: 430px;
   width: 100%;
 }
+.title_get_email{
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 50px;
+  margin-left: 150px;
+  
+  text-align: center;
 
+  color: #111111;
+}
 @media screen and (max-width: 1440px) {
   .about {
     font-family: Roboto;
